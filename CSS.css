@@ -5,12 +5,6 @@ body {
 
 
 @font-face {
-    font-family: OMORI;
-    src: url(fonts/OMORI_GAME2.ttf);
-
-}
-
-@font-face {
     font-family: MartianMono;
     src: url(fonts/MartianMono-VariableFont_wdth\,wght.ttf);
 }
