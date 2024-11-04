@@ -1,10 +1,10 @@
 //katanya ini untuk viewport
-if(document.documentElement.clientWidth < 900) 
-    window.location = ""
+if(document.documentElement.clientWidth < 900) {
+    window.location = "mobile/index.html"
 }
 
 
 //untuk layar katanya
 if(screen.width < 900) {
-    window.location = ""
+    window.location = "mobile/index.html"
 }
