@@ -7,7 +7,19 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>JAKIDEKAPI [home]</title>
     </head>
-    <script src="javascript/MOBILE_VIEW_SWITCH.js"></script>
+    <script>
+        //katanya ini untuk viewport
+        if(document.documentElement.clientWidth < 900) {
+        window.location = "mobile/PROTOTYPE_MOBILE.html"
+        }
+
+
+        //untuk layar katanya
+        if(screen.width < 900) {
+        window.location = "mobile/PROTOTYPE_MOBILE.html"
+        }
+
+    </script>
     <body>
         <a href="index.html"><img class="header" src="jakidekapi with face.svg"></a>
 
