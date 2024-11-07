@@ -1,6 +1,7 @@
 //aku nak pinjam elemen nya, boleh tidak?                    //                   //
 var elements = document.getElementsByClassName("kolom");     // Untuk grid gambar //
                                                              //                   //
+//ini gatau apaan yang diatas. 
 //DEKLARASI TITIT EH MAAF MAKSUDNYA VARIABLE 'LOOP'
 //stres gw anj beneran
 //harus pake javascript
