@@ -47,5 +47,3 @@ if(screen.width > 900) {
 // PLEASE 
 //PLEASE
 
-alert (window.innerHeight);
-alert (window.innerWidth); //buat tes mobile
