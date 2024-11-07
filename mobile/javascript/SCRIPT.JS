@@ -6,10 +6,10 @@
 
 //ini buat gambar
 //aku nak pinjam elemen nya, boleh tidak?
-var elements = document.getElementsByClassName("kolom");
-
-var i;
-
+var elements = document.getElementsByClassName("kolom");     //
+                                                             // ini gak tau bakal (sic) bekerja scriptnya   
+var i;                                                       //
+                                                             //
 for (i = 0; i < elements.length; i++) {
     elements[i].style.flex = "70%";
 }
