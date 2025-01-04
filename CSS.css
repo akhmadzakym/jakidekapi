@@ -19,6 +19,10 @@ strong {
     font-weight: 700;
 }
 
+mark {
+    background-color: white;
+}
+
 h1 {
     font-family: MartianMono;
     font-weight: 800;
