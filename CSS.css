@@ -23,6 +23,10 @@ mark {
     background-color: white;
 }
 
+ul {
+    color: white;
+}
+
 h1 {
     font-family: MartianMono;
     font-weight: 800;
