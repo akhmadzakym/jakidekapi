@@ -20,8 +20,13 @@ a {
     font-family: MartianMono;
     text-decoration: none;
     line-height: 1.5;
-    font-size: 19pt;
 }
+
+.links a:hover {
+    color: #121212;
+}
+
+
 
 strong {
     font-weight: 700;
@@ -34,6 +39,18 @@ mark {
 li {
     color: white;
     font-family: MartianMono;
+}
+
+ul {
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+ul:hover {
+    font-size: 13pt;
+    background-color: white;
+    color: #121212;
+    padding: 5px;
 }
 
 h1 {
