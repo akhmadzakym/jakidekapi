@@ -23,22 +23,3 @@ if(screen.width < 900) { //untuk layar katanya                                  
     window.location = "mobile/index.html"                                       //                                           //
 }                                                                               // it's a bad practice                       //
 
-//untuk modal image
-
-var modal  = document.getElementById("myModal");
-
-var img = document.getElementsByClassName("myImg");
-var modalImg  = document.getElementById("img");
-var captionText = document.getElementById("caption");
-
-img.onclick = function(){
-    modal.style.display = "block";
-    modalImg = this.src;
-    captionText.innerHTML = this.alt;
-}
-
-var span = document.getElementsByClassName("close")[0];
-
-span.onclick = function(){
-    modal.style.display = "none";
-}
