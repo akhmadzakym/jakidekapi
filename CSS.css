@@ -22,6 +22,11 @@ a {
     line-height: 1.5;
 }
 
+sup {
+    font-weight: lighter;
+    font-size: 7pt;
+}
+
 .links {
     transition: 0.2s;
 }
