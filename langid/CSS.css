@@ -5,12 +5,6 @@ body {
 
 
 @font-face {
-    font-family: OMORI;
-    src: url(fonts/OMORI_GAME2.ttf);
-
-}
-
-@font-face {
     font-family: MartianMono;
     src: url(fonts/MartianMono-VariableFont_wdth\,wght.ttf);
 }
@@ -21,8 +15,40 @@ p {
     color: white;
 }
 
+a {
+    color: white;
+    font-family: MartianMono;
+    text-decoration: none;
+    line-height: 1.5;
+}
+
+sup {
+    font-weight: lighter;
+    font-size: 7pt;
+}
+
+.links {
+    transition: 0.2s;
+}
+
+.links:hover {
+    color: #121212;
+    background-color: white;
+    padding: 10px;
+}
+
+
 strong {
     font-weight: 700;
+}
+
+mark {
+    background-color: white;
+}
+
+li {
+    color: white;
+    font-family: MartianMono;
 }
 
 h1 {
@@ -62,7 +88,7 @@ h1 {
     display: flex;
     align-content: center;
     flex-wrap: wrap;
-    margin-left: 146px;
+    margin-left: 61px;
 }
 
 
@@ -222,12 +248,13 @@ h1 {
 
 /* My Skills */
 .header_myskills {
-    font-size: 35px;
+    font-size: 38px;
 }
-/*progres bar*/
-.myskills {
 
+.header_social {
+    font-size: 38px;
 }
+
 
 /*TITLE: DIGITAL ART, TRADITIONAL ART, GRAPHIC DESIGN, PHOTOGRAPHY, MUSICS*/
 .title {
@@ -245,10 +272,10 @@ h1 {
 
 .kolom {
     flex: 50%;
+
     padding: 0 4px;
     margin-left: 36px;
-    margin-right: 36px;
-}
+    margin-right: 36px;}
 
 .kolom img {
     margin-top: 5px;
@@ -305,3 +332,9 @@ h1 {
     width : 379px;
     height: 379px;
 }
+
+.notice {
+    font-size: 11pt;
+    text-align: center;
+}
+
