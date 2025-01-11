@@ -49,6 +49,7 @@ mark {
 li {
     color: white;
     font-family: MartianMono;
+    list-style-type: none;
 }
 
 h1 {
