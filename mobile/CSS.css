@@ -47,7 +47,7 @@ sup {
     transition: 0.2s;
 }
 
-.links:hover {
+.links:focus {
     color: #121212;
     background-color: white;
     padding: 10px;
