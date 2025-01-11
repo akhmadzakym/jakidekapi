@@ -43,6 +43,13 @@ sup {
     font-size: 7pt;
 }
 
+li {
+    color: white;
+    font-family: MartianMono;
+    list-style-type: none; /*Di Microsoft Edge kalo ngga di kasih rule ini ada bullet nya...*/
+}
+
+
 .links{
     transition: 0.2s;
 }
