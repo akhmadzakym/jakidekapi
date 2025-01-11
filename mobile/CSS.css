@@ -52,6 +52,11 @@ sup {
     background-color: white;
     padding: 10px;
 }
+.links:hover {
+    color: #121212;
+    background-color: white;
+    padding: 10px;
+}
 
 
 .about {
