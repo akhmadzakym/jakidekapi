@@ -24,6 +24,7 @@ p {
 a {
     color:white ;
     font-family: MartianMono;
+    text-decoration: none;
     line-height: 1.5;
 }
 
