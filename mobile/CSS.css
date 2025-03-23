@@ -24,8 +24,11 @@ p {
 a {
     color:white ;
     font-family: MartianMono;
-    text-decoration: none;
     line-height: 1.5;
+}
+
+a:focus {
+    text-decoration: underline;
 }
 
 strong {
@@ -54,7 +57,7 @@ ul {
 }
 
 
-.links{
+.links:focus{
     text-decoration: underline;
 }
 
@@ -252,7 +255,6 @@ ul {
 .social_list a{
     color: white;
     font-family: MartianMono;
-    text-decoration: none;
     line-height: 1.5;
     font-size: 12pt;
 }
