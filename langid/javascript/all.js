@@ -17,9 +17,9 @@ for (i = 0; i < elements.length; i++) {
 //Alright. Continue.
 
 if(document.documentElement.clientWidth < 900) { //katanya ini untuk viewport  
-    window.location = "mobile/index.html"                                       //                                           //
+    window.location = "../mobile/langid/index.html"                             //                                           //
 }                                                                               //                                           //
                                                                                 // Biar responsif, gw berikan JS ini untuk   //
 if(screen.width < 900) { //untuk layar katanya                                  // ganti ke tampilan mobile secara otomatis. //
-    window.location = "mobile/index.html"                                       //                                           //
+    window.location = "../mobile/langid/index.html"                             //                                           //
 }                                                                               //                                           //
