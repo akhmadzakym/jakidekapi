@@ -36,10 +36,8 @@ function animate() {
     controls.update();
     renderer.render( scene, camera );
 
-    }
+}
 
-
-////////////////////////////////////////////////////////////////////
 //aku nak pinjam elemen nya, boleh tidak?                    //                   //
 var elements = document.getElementsByClassName("kolom");     // Untuk grid gambar //
                                                              //                   //
