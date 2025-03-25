@@ -1,4 +1,4 @@
-import * as THREE from 'three';
+import * as THREE from '/home/codespace/.cache/typescript/5.8/node_modules/@types/three/index.d.ts';
 
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 
