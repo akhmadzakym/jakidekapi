@@ -1,5 +1,4 @@
-// THREE.JS SIDE
-import * as THREE from 'three';
+import * as THREE from 'three'; // THREE.JS SIDE
 
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 
