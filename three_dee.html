@@ -12,8 +12,8 @@
     <script type="importmap">
         {
           "imports": {
-            "three": "https://cdn.jsdelivr.net/npm/three@<version>/build/three.module.js",
-            "three/addons/": "https://cdn.jsdelivr.net/npm/three@<version>/examples/jsm/"
+            "three": "https://cdn.jsdelivr.net/npm/three@0.174.0/build/three.module.js",
+            "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.174.0/examples/jsm/"
           }
         }
       </script>
@@ -22,7 +22,6 @@
         import * as THREE from 'three';
 
         import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
-        import { GLTFLoader } from 'three/examples/jsm/Addons.js';
 
         const scene = new THREE.Scene();
         const camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.innerHeight, 0.1, 1000 );
@@ -34,19 +33,6 @@
         document.body.appendChild( renderer.domElement );
 
         const controls = new OrbitControls(camera,renderer.domElement);
-
-        const loader = new GLTFLoader();
-        loader.load('suzanne.glb', function(gltf){
-            scene.add(gltf.scene);
-        }, undefined, function (error){
-            console.error(error);
-        });
-
-        const geo = new THREE.BoxGeometry(1,1,1);
-        const mat = new THREE.MeshToonMaterial({color: 0x00ffff});
-        const box = new THREE.Mesh(geo,mat);
-        box.position.set(1,2,1);
-        scene.add(box);
 
         // Stars
         function star(){
@@ -61,13 +47,6 @@
 
         Array(500).fill().forEach(star);
 
-        // Light Source
-        const color = 0xFFFFFF;
-        const intensity = 3;
-        const light = new THREE.DirectionalLight( color, intensity );
-        light.position.set(1,1,1);
-        scene.add( light );
-
         camera.position.set(0,20,30);
         controls.update();
 
@@ -75,10 +54,6 @@
 
 
         function animate() {
-            box.rotation.x += 0.01;
-            box.rotation.y += 0.01;
-
-
             controls.update();
             renderer.render( scene, camera );
 
