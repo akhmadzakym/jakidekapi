@@ -238,6 +238,7 @@ h1 {
 .imgpar_3_4_5_A {
     margin-top: 20px;
 }
+
 /*socials*/
 .social_list a{
     color: white;
@@ -257,7 +258,7 @@ h1 {
 }
 
 
-/*TITLE: DIGITAL ART, TRADITIONAL ART, GRAPHIC DESIGN, PHOTOGRAPHY, MUSICS*/
+/*TITLE: DIGITAL ART, NON-DIGITAL, GRAPHIC DESIGN, PHOTOGRAPHY, DISCOGRAPHY, VIDEO*/
 .title {
     text-align: center;
     margin-top: 50px;
@@ -273,7 +274,6 @@ h1 {
 
 .kolom {
     flex: 50%;
-
     padding: 0 4px;
     margin-left: 36px;
     margin-right: 36px;}
@@ -338,4 +338,3 @@ h1 {
     font-size: 11pt;
     text-align: center;
 }
-
